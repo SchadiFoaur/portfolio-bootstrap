@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/main.css" />
+    <title>Blog - Web Portfolio of Schadi</title>
+
+    <!-- For icons from popular website-->
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav">
+            <li class="active"><a class="nav-link" href="/">Home</a></li>
+            <li class="active">
+              <a class="nav-link active" href="/blog/">Blog</a>
+            </li>
+            <li class="active">
+              <a class="nav-link" href="/projects/">Projects</a>
+            </li>
+            <li class="active">
+              <a class="nav-link" href="/contact/">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main div -->
+    <div class="container">
+      <!-- Header -->
+      <h1 class="title">Blog! <i class="far fa-newspaper"></i></h1>
+      <hr />
+      <!-- Main content -->
+      <h2>My Journal!</h2>
+      <p>
+        Welcome to my Blog. You'll find here detailed entries that lead to the
+        building of this website. You'll also find under the links section, a
+        link to a website that pushed me into starting. Have Fun!
+        <i class="far fa-smile"></i>
+      </p>
+      <p>
+        <span style="font-style: italic">
+          Note: Surprisingly the hardest thing about coding is not the coding
+          part, but matching colors!!
+        </span>
+      </p>
+
+      <!-- Div Block entries and links side by side -->
+      <div class="row">
+        <div class="col-sm-8">
+          <!-- Links to each entry -->
+          <h2>
+            Blog Entries!
+            <a href="#first-box" class="down-link">
+              <ion-icon name="arrow-down-circle-outline"></ion-icon
+            ></a>
+          </h2>
+          <hr />
+
+          <!-- Here will be the blog entries always copy from here -->
+          <div class="box-house">
+            <div class="newest">
+              <h3 class="heading-linkbox">
+                <a href="/blog/sixth-entry/index.html">
+                  The End, Sixth Entry
+                  <i class="fas fa-book-reader"></i>
+                </a>
+              </h3>
+              <p class="date content-box">January 12, 2022</p>
+              <p class="content-box">
+                Surprisingly i finished early today. I can still see the sun
+                which is a good thing i guess. I worked on the project page
+                and...
+              </p>
+            </div>
+            <div class="newest">
+              <h3 class="heading-linkbox">
+                <a href="/blog/fifth-entry/index.html">
+                  Contact form, Fifth Entry
+                  <i class="far fa-address-card"></i>
+                </a>
+              </h3>
+              <p class="date content-box">January 11, 2022</p>
+              <p class="content-box">
+                I still have no real solution for the footer. However today was
+                a fruitful day and i am sure by tomorrow the website will...
+              </p>
+            </div>
+
+            <div class="newest">
+              <h3 class="heading-linkbox">
+                <a href="/blog/fourth-entry/index.html"
+                  >Blog page designing, Forth Entry
+                  <ion-icon name="pencil-outline"></ion-icon>
+                </a>
+              </h3>
+              <p class="date content-box">January 10, 2022</p>
+
+              <p class="content-box">
+                Although it took around 3 days. I am now officially done with
+                the homepage. I made some minor adjustments, color...
+              </p>
+            </div>
+
+            <div class="newest">
+              <h3 class="heading-linkbox">
+                <a href="/blog/third-entry/"
+                  >Finishing touches, Third Entry
+                  <ion-icon name="color-wand-outline"></ion-icon>
+                </a>
+              </h3>
+              <p class="date content-box">January 9, 2022</p>
+
+              <p class="content-box">
+                I was not successful in removing the borders of the Gif, so i
+                just decided to blend it with background. I went with a dark...
+              </p>
+            </div>
+            <div class="newest">
+              <h3 class="heading-linkbox">
+                <a href="/blog/second-entry/index.html"
+                  >Redesigning everything, Second Entry
+                  <ion-icon name="construct-outline"></ion-icon>
+                </a>
+              </h3>
+              <p class="date content-box">January 8, 2022</p>
+
+              <p class="content-box">
+                I was not successful in removing the borders of the Gif, so i
+                just decided to blend it with background. I went with a dark...
+              </p>
+            </div>
+
+            <div id="first-box" class="newest">
+              <h3 class="heading-linkbox">
+                <a href="/blog/first-entry/index.html"
+                  >The beginning, First Entry
+                  <ion-icon name="planet-outline"></ion-icon>
+                </a>
+              </h3>
+              <p class="date content-box">January 7, 2022</p>
+
+              <p class="content-box">
+                This was my first attempt at creating a website. I followed the
+                tutorial offered by Code makery step by step. All and all it...
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 offset-sm-1">
+          <h3>Links</h3>
+          <hr />
+          <div class="box-house">
+            <div class="newest">
+              <a href="https://code.makery.ch/library/html-css/" target="_blank"
+                >Code makery <ion-icon name="code-working-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start">
+      <div class="p-3 container">
+        <p>&copy; 2022 Copyright: Schadi</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap stuff -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Also icons from tutorial -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

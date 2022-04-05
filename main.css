@@ -1,0 +1,216 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+body {
+  background-color: #1a202c;
+  font-weight: 400;
+  font-size: 1.23rem;
+}
+
+/* Main Things */
+h1,
+h3,
+p {
+  color: #ffffff;
+  margin: 16px 0px 16px;
+}
+h2 {
+  /* background-color: #607d8b; */
+  color: #ffffff;
+  padding: 5px;
+}
+hr {
+  border-color: #607d8b;
+}
+
+a:link {
+  color: #0bc5ea;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0bc5ea;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #607d8b;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* This is for the entire Div the two parts */
+.main-dis {
+  padding: 25px 0px 25px 0px;
+}
+
+/* Here is the left side of the Big Div Homepage */
+.col-sm-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The big GIF */
+#avatar {
+  margin: auto;
+  width: auto;
+  border-radius: 50%;
+}
+#avatar:hover {
+  border-radius: 10%;
+  transition: 1.5s;
+  transition-delay: 2s;
+}
+/* Here begins the right side of the Div */
+/* The hey in the homepage */
+
+.maintitle {
+  font-style: italic;
+}
+
+/* This is the signature at the bottom */
+#signature {
+  margin: 16px 0px 16px;
+  width: 166px;
+  height: 96px;
+}
+
+/* For the second main Div home page and the blog page*/
+
+.box-house {
+  padding: 9px 0px;
+}
+.newest {
+  position: relative;
+  width: 100%;
+  margin: 25px 0px;
+  border-radius: 25px;
+  border-width: thin;
+  border-style: solid;
+  border-color: #607d8b;
+  padding: 10px;
+  top: 0;
+  transition: top ease 0.3s;
+}
+.newest:hover {
+  top: -8px;
+}
+.heading-linkbox {
+  margin: 0px;
+}
+.content-box {
+  margin: 5px 0px 0px 0px;
+}
+.date {
+  font-weight: 500;
+}
+#more {
+  margin: 25px 0px;
+  text-align: center;
+}
+
+/* Footer  */
+footer {
+  bottom: 0;
+  width: 100%;
+}
+/* For the icon in the Blog entries in the blog page */
+.down-link {
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+}
+.down-link:hover {
+  top: -8px;
+}
+
+/* This is all Entry screenshots */
+
+.screenshot {
+  border: solid #607d8b;
+  border-width: thin;
+  border-radius: 25px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+}
+.screenshot:hover {
+  top: -8px;
+  transform: scale(1.02);
+}
+
+/* For the next and prev Buttons in the entries */
+.btn {
+  border-radius: 15px;
+}
+
+/* For project page */
+#avatar-proj {
+  width: 20%;
+  margin: auto;
+}
+#small-avatar {
+  margin: auto;
+  width: auto;
+  transform: scale(0.6);
+  border-radius: 50%;
+}
+/* Contact page */
+/* contact form */
+#form {
+  position: relative;
+  width: 100%;
+  margin: 25px 0px;
+  border-radius: 25px;
+  border-width: thin;
+  border-style: solid;
+  border-color: #607d8b;
+  padding: 10px;
+}
+.form-p {
+  color: #ffffff;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #607d8b;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  position: relative;
+  top: 0;
+  transition: top ease 0.15s;
+  background-color: #1a202c;
+  color: #607d8b;
+  padding: 12px 20px;
+  border: thin;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  top: -2px;
+  color: #0bc5ea;
+}
