@@ -158,6 +158,10 @@ footer {
 .btn {
   border-radius: 15px;
 }
+aside {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* For project page */
 #avatar-proj {
